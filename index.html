@@ -10,6 +10,11 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
   <!-- Custom Styles -->
   <script>
     tailwind.config = {
@@ -24,10 +29,11 @@
       }
     }
   </script>
+  
 
 </head>
 
-<body class="">
+<body style="font-family: Manrope, sans-serif;" class="text-color-primary text-sm lg:text-base">
 
   <header class="max-w-7xl mx-auto px-4 md:px-8 lg:px-14 mt-12">
 
@@ -37,53 +43,100 @@
       <!-- Slide--1 -->
       <div id="slide1" class="carousel-item relative w-full">
         <img src="./Images/banner-bg.png" class="w-full" />
-        <div class="absolute flex justify-center md:justify-start gap-5 md:gap-8  bottom-5 lg:bottom-8 left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-8 ">
-          <a href="#slide4" class="btn btn-circle bg-color-primary text-white border-none">❮</a> 
+        <div
+          class="absolute flex justify-center lg:justify-start gap-5 bottom-5 lg:bottom-8 left-1/2 transform -translate-x-1/2 lg:translate-x-0 lg:left-8">
+          <a href="#slide4" class="btn btn-circle bg-color-primary text-white border-none">❮</a>
           <a href="#slide2" class="btn btn-circle bg-color-primary text-white border-none">❯</a>
         </div>
-      </div> 
+      </div>
 
       <!-- Slide--2 -->
       <div id="slide2" class="carousel-item relative w-full">
         <img src="./Images/banner-2.jpg" class="w-full" />
-        <div class="absolute flex justify-center md:justify-start gap-5 md:gap-8  bottom-5 lg:bottom-8 left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-8 ">
-          <a href="#slide1" class="btn btn-circle bg-color-primary text-white border-none">❮</a> 
+        <div
+          class="absolute flex justify-center lg:justify-start gap-5 bottom-5 lg:bottom-8 left-1/2 transform -translate-x-1/2 lg:translate-x-0 lg:left-8 ">
+          <a href="#slide1" class="btn btn-circle bg-color-primary text-white border-none">❮</a>
           <a href="#slide3" class="btn btn-circle bg-color-primary text-white border-none">❯</a>
         </div>
-      </div> 
+      </div>
       <!-- Slide--3 -->
       <div id="slide3" class="carousel-item relative w-full">
         <img src="./Images/banner-3.jpg" class="w-full" />
-        <div class="absolute flex justify-center md:justify-start gap-5 md:gap-8  bottom-5 lg:bottom-8 left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-8 ">
-          <a href="#slide2" class="btn btn-circle bg-color-primary text-white border-none">❮</a> 
+        <div
+          class="absolute flex justify-center lg:justify-start gap-5 bottom-5 lg:bottom-8 left-1/2 transform -translate-x-1/2 lg:translate-x-0 lg:left-8 ">
+          <a href="#slide2" class="btn btn-circle bg-color-primary text-white border-none">❮</a>
           <a href="#slide4" class="btn btn-circle bg-color-primary text-white border-none">❯</a>
         </div>
-      </div> 
+      </div>
       <!-- Slide--4 -->
       <div id="slide4" class="carousel-item relative w-full">
         <img src="./Images/banner-4.jpg" class="w-full" />
-        <div class="absolute flex justify-center md:justify-start gap-5 md:gap-8  bottom-5 lg:bottom-8 left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-8 ">
-          <a href="#slide3" class="btn btn-circle bg-color-primary text-white border-none">❮</a> 
+        <div
+          class="absolute flex justify-center lg:justify-start gap-5 bottom-5 lg:bottom-8 left-1/2 transform -translate-x-1/2 lg:translate-x-0 lg:left-8 ">
+          <a href="#slide3" class="btn btn-circle bg-color-primary text-white border-none">❮</a>
           <a href="#slide1" class="btn btn-circle bg-color-primary text-white border-none">❯</a>
         </div>
-      </div> 
+      </div>
 
-    
-    
-    
+
+
+
     </div>
   </header>
 
   <!-- Main Pard
   =================== -->
   <main class="max-w-7xl mx-auto px-4 md:px-8 lg:px-14 mt-10 md:16 lg:mt-24">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa labore cumque pariatur? Doloremque voluptates sed quod reiciendis iure nam?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa labore cumque pariatur? Doloremque voluptates sed quod reiciendis iure nam?
+    <!-- Professional Hockeys Club Section
+    --------------------------------------- -->
+    <section>
+      <div class="p-6 md:p-8 border border-dashed border-color-secondary w-full">
+        <div class="text-center max-w-72 md:max-w-xl mx-auto ">
+        <h2 class="text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+        <p class="font-medium mt-8">Explore elite training, top-tier equipment, and exclusive events in our Professional Hockey Club section.</p>
+       </div>
+      </div>
+
+     <div class="grid justify-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-6">     
+      <!-- Progress-1 -->
+     <div class="text-center space-y-6 p-5">
+      <div class="radial-progress text-red-500 " style="--value:87;" role="progressbar"><span class="font-extrabold text-xl text-color-primary">87%</span></div>
+      <h4 class="text-xl font-semibold">Prayer Facility</h4>
+      <p class="text-color-secondary">Sacred Space for Team Reflection</p>
+     </div>
+      <!-- Progress-2 -->
+     <div class="text-center space-y-6 p-5">
+      <div class="radial-progress text-[#49D293] " style="--value:95;" role="progressbar"><span class="font-extrabold text-xl text-color-primary">95%</span></div>
+      <h4 class="text-xl font-semibold">Experienced Coach</h4>
+      <p class="text-color-secondary">Expert Guidance from Seasoned Coaches.</p>
+     </div>
+      <!-- Progress-3 -->
+     <div class="text-center space-y-6 p-5">
+      <div class="radial-progress text-yellow-500 " style="--value:90;" role="progressbar"><span class="font-extrabold text-xl text-color-primary">90%</span></div>
+      <h4 class="text-xl font-semibold">Senior Player</h4>
+      <p class="text-color-secondary">Wise Leadership from Seasoned Players.</p>
+     </div>
+      <!-- Progress-4 -->
+     <div class="text-center space-y-6 p-5">
+      <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar"><span class="font-extrabold text-xl text-color-primary">80%</span></div>
+      <h4 class="text-xl font-semibold">Training Ground</h4>
+      <p class="text-color-secondary">"Optimal Arena for Skill Development.</p>
+     </div>
+
+      
+      
+    </div>
+     </div>
+
+    </section>
+    
   </main>
   <footer class="bg-black text-white mt-10 md:16 lg:mt-24">
     <div class="max-w-7xl mx-auto px-4 md:px-8 lg:px-14 ">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolorum vitae obcaecati ut odio reprehenderit temporibus, necessitatibus voluptate commodi vero.
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolorum vitae obcaecati ut odio reprehenderit temporibus, necessitatibus voluptate commodi vero.
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolorum vitae obcaecati ut odio reprehenderit
+      temporibus, necessitatibus voluptate commodi vero.
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolorum vitae obcaecati ut odio reprehenderit
+      temporibus, necessitatibus voluptate commodi vero.
     </div>
   </footer>
 
