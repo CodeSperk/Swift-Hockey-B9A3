@@ -27,6 +27,10 @@
             "color-primary": '#131318',
             "color-secondary": '#13131899',
             "color-focus": '#FF4240'
+          },
+          backgroundImage: {
+            'program-1': "url('./Images/program-1.png')",
+            'program-2': "./Images/program-2.png'), #000",
           }
         }
       }
@@ -101,7 +105,7 @@
         </div>
       </div>
 
-      <div class="grid justify-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-6">
+      <div class="grid justify-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-6 lg:mt-12">
         <!-- Progress-1 -->
         <div class="text-center space-y-6 p-5">
           <div class="radial-progress text-red-500 " style="--value:87;" role="progressbar"><span
@@ -130,12 +134,60 @@
           <h4 class="text-xl font-semibold">Training Ground</h4>
           <p class="text-color-secondary">"Optimal Arena for Skill Development.</p>
         </div>
-
-
-
       </div>
       </div>
+    </section>
 
+    <!-- Program Section
+    --------------------- -->
+    <section class="mt-10 lg:mt-24">
+      <div class="p-6 md:p-8 border border-dashed border-color-secondary w-full">
+        <div class="text-center max-w-72 md:max-w-xl mx-auto ">
+          <h2 class="text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
+          <p class="font-medium mt-8">Explore elite training, top-tier equipment, and exclusive events in our
+            Professional Hockey Club section.</p>
+        </div>
+      </div>
+
+      <div class="mt-6 lg:mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6 text-white">
+        <!-- Program-1 -->
+        <div class="col-span-1 rounded-2xl bg-black mix-blend-multiply relative min-h-72 lg:min-h-96">
+          <img src="./Images/program-1.png" alt="" class="rounded-2xl w-full opacity-60 h-full">
+          <div class="absolute left-0 bottom-0 p-5 lg:p-10">
+            <h3 class="text-xl lg:text-2xl font-extrabold mb-3">Junior Program</h3>
+            <p class="text-justify"> Nurture young talent in our Junior Program section, providing expert coaching, skill development, and a supportive community, ensuring a promising future for aspiring hockey players.</p>
+            <button class="btn bg-color-focus outline-none border-none text-white hover:text-color-primary mt-5">Register Now</button>
+          </div>
+        </div>
+
+        <!-- Program-2 -->
+        <div class="col-span-1 rounded-2xl bg-black mix-blend-multiply relative min-h-72 lg:min-h-96">
+          <img src="./Images/program-2.png" alt="" class="rounded-2xl w-full opacity-60 h-full">
+          <div class="absolute left-0 bottom-0 p-5 lg:p-10">
+            <h3 class="text-xl lg:text-2xl font-extrabold mb-3">Teenager Program</h3> 
+            <p class="text-justify">Elevate skills and camaraderie in our Teenagers Program section. Tailored coaching, advanced training, and a dynamic community foster excellence for aspiring teenage hockey enthusiasts.</p>
+            <button class="btn bg-color-focus outline-none border-none text-white hover:text-color-primary mt-5">Register Now</button>
+          </div>
+        </div>
+
+        <!-- Program-3 -->
+        <div class="col-span-1 lg:col-span-2 rounded-2xl bg-black mix-blend-multiply relative min-h-72 lg:min-h-96">
+          <img src="./Images/program-3.png" alt="" class="rounded-2xl w-full opacity-60 h-full">
+
+          <div class="absolute left-0 bottom-0 p-5 lg:p-10 flex gap-6">
+            <div class="w-full lg:w-1/2">
+              <h3 class="text-xl lg:text-2xl font-extrabold mb-3">Jonior Program</h3>
+            <p class="text-justify">Excel in our Professional Program, where elite coaching, specialized training, and strategic development propel experienced players towards peak performance and success in the competitive hockey arena.
+            </p>
+            <button class="btn bg-color-focus outline-none border-none text-white hover:text-color-primary mt-5">Register Now</button>
+            </div>
+            <div class="w-1/2 hidden lg:flex">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
 
   </main>
@@ -143,7 +195,8 @@
   <!-- Footer
   ============== -->
   <footer class="bg-color-primary mt-10 md:16 lg:mt-24" style="color: rgba(255, 255, 255, 0.60);">
-    <div class="footer max-w-7xl mx-auto px-4 md:px-8 lg:px-14 py-10 lg:py-24 grid grid-cols-2 lg:grid-cols-5 justify-center items-center">
+    <div
+      class="footer max-w-7xl mx-auto px-4 md:px-8 lg:px-14 py-10 lg:py-24 grid grid-cols-2 lg:grid-cols-5 justify-center items-center">
       <nav class="col-span-2 text-center lg:text-start">
         <header class="text-2xl font-bold text-white my-4 mx-auto lg:ml-0">Get In Touch</header>
         <p>Questions or collaborations? Reach out. We're here to connect. Let's build something great together!</p>
@@ -155,7 +208,7 @@
           <i class="fa-solid fa-phone text-color-focus"></i>
           <a href="tel:+62123321543" class="ml-4">(+62) 123-321-543</a>
         </div>
-        
+
       </nav>
       <nav class="flex flex-col justify-center items-center lg:items-start col-span-1 w-full">
         <header class="text-lg font-bold text-white mb-7">Company</header>
